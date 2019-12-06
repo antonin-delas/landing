@@ -1,0 +1,266 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Work+Sans&display=swap');
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/menu.css");
+@import url("components/gallery.css");
+
+
+/* General style rules for fonts and colors */
+body 	{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+  background-color: rgba(0,0,0,0.015);
+}
+
+h1, h2, h3 	{
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	margin: 0px auto;
+}
+
+h3	{
+	font-size: 22px;
+}
+
+p 	{
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+	width: 50vw;
+	height: 120px;
+	float: left;
+	display: block;
+}
+
+.logo img {
+	width: 70px;
+	height: 70px;
+	margin: 25px 25px 25px 75px;
+}
+
+.title {
+	width: 100vw;
+	height: 100px;
+	display: block;
+	flex-direction: column;
+}
+
+.title h1 {
+		margin: 0 0;
+}
+
+.container 	{
+	padding: 30px 100px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.container p {
+	font-size: 14px;
+}
+
+.container a {
+	font-size: 13px;
+}
+
+#events		{
+	display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+	align-items: center;
+	margin: 50px 0 100px 0;
+}
+
+#articles {
+	display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+	align-items: center;
+	margin: 0 0 40px 0;
+}
+
+.review 	{
+	margin: 0 0 100px 0;
+	padding: 30px 100px;
+}
+
+.review	h2	{
+	text-align: center;
+}
+
+.review	h3	{
+	text-align: justify;
+}
+
+.review	p	{
+	text-align: center;
+}
+
+.partners	{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px 0;
+}
+
+.feed-insta {
+	margin: 50px 0;
+}
+
+.footer 	{
+	background-color: #020437;
+	color:	white;
+	text-align: center;
+	padding: 30px 0 30px 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	height: 350px;
+}
+
+.footer li {
+	display: inline;
+	text-decoration: none;
+}
+
+.footer a {
+	font-family: 'Roboto', sans-serif;
+}
+
+.footer p {
+	font-style: 10px;
+	padding: 20px 0 10px; 0;
+}
+
+.social-networks {
+	padding: 0 0 0 0;
+}
+
+.social-networks img {
+	height:	25px;
+	width: 25px;
+	margin: 10px;
+}
+
+.mentions-legales {
+	padding: 0 0 0 0;
+}
+
+.separateur {
+	height: 1px;
+	background-color: rgba(0,0,0,0.1);
+	margin: 70px 20px;
+}
+
+.intro-partners p {
+	text-align: justify;
+}
+
+.contact-form {
+	text-align: center;
+	margin: 50px 0;
+}
+
+.google-maps {
+	width: 100%;
+	text-align: center;
+	margin: 30px 0 100px 0;
+}
+
+/* Responsive Design */
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 840px) {
+	.card-review h3 {
+		font-size: 17px;
+	}
+
+	.card-review h4 {
+		font-size: 17px;
+	}
+
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+	.feed-insta {
+		width: 500px;
+	}
+
+	.card-review h3 {
+		font-size: 13px;
+	}
+
+	.card-review h4 {
+		font-size: 13px;
+	}
+
+  .container {
+    width: 500px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+  .logo {
+  	width: 100%;
+  }
+
+  .menu {
+  	width: 100%;
+  	text-align: center;
+  }
+
+  #card-review-responsive {
+
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 250px;
+  }
+
+  .logo {
+  	width: 100%;
+  }
+
+  .menu {
+  	width: 100%;
+  	text-align: center;
+  }
+
+  #card-review-responsive {
+  	visibility: hidden;
+  }

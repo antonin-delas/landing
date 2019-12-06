@@ -1,0 +1,66 @@
+.banner {
+	color: white;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner h1 {
+	letter-spacing: 3px;
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.banner h3 {
+	font-weight: lighter;
+	font-size: 15px;
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+}
+
+#banner-homepage {
+	background-image: url(../../img/background6.jpg);
+}
+
+#banner-rallye-automne-2019 {
+	background-image: url(../../img/rallye-automne-2019/rallye-automne-3.jpg);
+}
+
+#banner-contact {
+	background-image: url(../../img/rallye-automne-2019/rallye-automne-6.jpg);
+}
+
+#banner-about-us {
+	background-image: url(../../img/about-us.jpg);
+}
+
+/*#banner-test {
+	background-image: url(../../img/background3.jpg);
+}*/
+
+.banner-review {
+	background-image: url(../../img/background2.jpg);
+	color: white;
+	height: 700px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.banner-review h2 {
+	padding: 20px 0;
+}
+
+.banner_menu {
+	height: 60px;
+	background-color: #030640;
+	text-align: center;
+}
+
+.banner_menu img {
+	padding-top: 5px;
+	padding-left: 15px;
+	height: 50px;
+	width: 50px;
+}

@@ -1,0 +1,33 @@
+.menu	{
+	float: right;
+	display: flex;
+	width: 50vw;
+	height: 120px;
+	text-align: right;
+}
+
+/*.menu-ul {
+	font-weight: lighter;
+	font-size: 12px;
+	text-align: right;
+	padding-left: 0px;
+	margin: 0;
+}*/
+
+.menu a:hover	{
+	color: rgba(0,0,0,0.8);
+}
+
+.menu li	{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	display: inline;
+	padding: 0px 8px;
+	margin: auto 0 auto auto;
+}
+
+/*.menu img {
+	height:	20px;
+	width: 20px;
+} */
